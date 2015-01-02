@@ -1,10 +1,10 @@
 @extends('layout')
 
 @section('content')
-<h1>Sdelki</h1>
+<h1>Сделки</h1>
 
 @if ($deals->count())
-    <table id="table1" class="table table-striped table-bordered">
+    <table id="table1" class="table table-striped table-bordered table-hover">
         <thead>
             <tr>
         <th>Номер</th>
@@ -28,7 +28,7 @@
           <td>{{ money($deal->price) }}</td>
           <td>{{ money($deal->cash) }}</td>
           <td>{{ money($deal->bank) }}</td>
-          <td>{{ $deal->updated_at->format('Y-m-d H:i') }}</td>
+          <td>{{ $deal->updated_at->format('j-M-y, g:i') }}</td>
           
  <td>
      <a class="btn btn-info" href="{{ URL::to('/deal/'.$deal->id) }}">Edit</a>
