@@ -64,7 +64,9 @@ class DealController extends \BaseController {
         $deal->save();
         
         return Redirect::to('/');
-	}   
+	
+        
+        }   
 }
       
 
