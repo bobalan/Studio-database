@@ -40,4 +40,33 @@ class DealController extends \BaseController {
         return Redirect::to('/');
 	}
 
-        }
+        
+        
+        public function update($id)
+                {
+    $rules = array(
+        'description'    => 'required',
+        'price' => 'required|digits_between:1,6');
+    $validator = Validator::make(Input::all(), $rules);
+    if ($validator->fails()) {
+        return Redirect::to('deal/'.$id)
+            ->withErrors($validator) 
+            ->withInput(Input::except('password')); 
+    } else {
+        $userdata = array(
+            'description' => Input::get('description'),
+            'price'  => Input::get('price')
+        );
+        
+        $deal = Deal::find($id);
+        $deal->description = $userdata['description'];
+        $deal->price = $userdata{'price'};
+        $deal->save();
+        
+        return Redirect::to('/');
+	}   
+}
+      
+
+            
+                }
