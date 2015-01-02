@@ -3,6 +3,13 @@
 
 @section('content')
     
-    <p>{{ $deal->id }}    {{ $deal->description }} {{ $deal->price }}</p>
+    
+
+
+
+<p>{{ $deal->id }}    {{ $deal->description }} {{ $deal->price }}</p>
+
+
+
 
 @stop
