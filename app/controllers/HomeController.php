@@ -54,7 +54,7 @@ class HomeController extends BaseController {
 
             // validation successful!
             // redirect them to the secure section or whatever
-           return Redirect::to('/')->with('email', $userdata['email']);
+           return Redirect::to('/deal')->with('email', $userdata['email']);
             // for now we'll just echo success (even though echoing in a controller is bad)
          //   echo 'Welcome '.$userdata['email'];
 
@@ -74,3 +74,4 @@ class HomeController extends BaseController {
         }
     
         }
+        

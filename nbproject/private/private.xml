@@ -3,16 +3,16 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/yanev1/laravel/app/models/User.php</file>
-            <file>file:/C:/xampp/htdocs/yanev1/laravel/artisan</file>
-            <file>file:/C:/xampp/htdocs/yanev1/laravel/app/views/loginform.blade.php</file>
-            <file>file:/C:/xampp/htdocs/yanev1/laravel/app/views/users.blade.php</file>
-            <file>file:/C:/xampp/htdocs/yanev1/laravel/composer.json</file>
-            <file>file:/C:/xampp/htdocs/yanev1/laravel/app/database/migrations/2014_12_27_152517_create_users_table.php</file>
-            <file>file:/C:/xampp/htdocs/yanev1/laravel/app/config/database.php</file>
-            <file>file:/C:/xampp/htdocs/yanev1/laravel/app/views/hello.php</file>
+            <file>file:/C:/xampp/htdocs/yanev1/laravel/app/views/dealcreate.blade.php</file>
+            <file>file:/C:/xampp/htdocs/yanev1/laravel/app/views/deal.blade.php</file>
+            <file>file:/C:/xampp/htdocs/yanev1/laravel/app/controllers/DealController.php</file>
+            <file>file:/C:/xampp/htdocs/yanev1/laravel/app/controllers/HomeController.php</file>
+            <file>file:/C:/xampp/htdocs/yanev1/laravel/app/models/Deal.php</file>
+            <file>file:/C:/xampp/htdocs/yanev1/laravel/app/views/login.blade.php</file>
+            <file>file:/C:/xampp/htdocs/yanev1/laravel/app/views/home.blade.php</file>
             <file>file:/C:/xampp/htdocs/yanev1/laravel/app/routes.php</file>
             <file>file:/C:/xampp/htdocs/yanev1/laravel/app/views/layout.blade.php</file>
+            <file>file:/C:/xampp/htdocs/yanev1/laravel/app/filters.php</file>
         </group>
     </open-files>
 </project-private>
